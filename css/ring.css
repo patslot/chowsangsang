@@ -1,0 +1,627 @@
+.animateparent {
+  position: relative;
+  width: 500px;
+  height: 500px;    
+    margin: 0 auto;
+  display: block;
+}
+.ringani{
+  position: absolute;
+  width: 100%; 
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;  
+  background-size: 100%;
+  animation: sprite 4s steps(4) infinite;
+}
+.ring0101 {
+  background:  url('../images/ring/0101.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0102 {
+  background:  url('../images/ring/0102.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0103 {
+  background:  url('../images/ring/0103.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0104 {
+  background:  url('../images/ring/0104.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0105 {
+  background:  url('../images/ring/0105.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0106 {
+  background:  url('../images/ring/0106.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0107 {
+  background:  url('../images/ring/0107.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0108 {
+  background:  url('../images/ring/0108.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0109 {
+  background:  url('../images/ring/0109.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0110 {
+  background:  url('../images/ring/0110.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0111 {
+  background:  url('../images/ring/0111.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0112 {
+  background:  url('../images/ring/0112.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0407 {
+  background:  url('../images/ring/0407.png') no-repeat 0 0;
+  background-size: 100%;
+}
+
+.ring0201 {
+  background:  url('../images/ring/0201.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0202 {
+  background:  url('../images/ring/0202.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0203 {
+  background:  url('../images/ring/0203.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0204 {
+  background:  url('../images/ring/0204.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0205 {
+  background:  url('../images/ring/0205.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0206 {
+  background:  url('../images/ring/0206.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0207 {
+  background:  url('../images/ring/0207.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0208 {
+  background:  url('../images/ring/0208.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0209 {
+  background:  url('../images/ring/0209.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0210 {
+  background:  url('../images/ring/0210.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0211 {
+  background:  url('../images/ring/0211.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0212 {
+  background:  url('../images/ring/0212.png') no-repeat 0 0;
+  background-size: 100%;
+}
+
+
+.ring0301 {
+  background:  url('../images/ring/0301.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0302 {
+  background:  url('../images/ring/0302.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0303 {
+  background:  url('../images/ring/0303.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0304 {
+  background:  url('../images/ring/0304.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0305 {
+  background:  url('../images/ring/0305.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0306 {
+  background:  url('../images/ring/0306.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0307 {
+  background:  url('../images/ring/0307.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0308 {
+  background:  url('../images/ring/0308.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0309 {
+  background:  url('../images/ring/0309.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0310 {
+  background:  url('../images/ring/0310.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0311 {
+  background:  url('../images/ring/0311.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0312 {
+  background:  url('../images/ring/0312.png') no-repeat 0 0;
+  background-size: 100%;
+}
+
+
+.ring0401 {
+  background:  url('../images/ring/0401.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0402 {
+  background:  url('../images/ring/0402.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0403 {
+  background:  url('../images/ring/0403.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0404 {
+  background:  url('../images/ring/0404.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0405 {
+  background:  url('../images/ring/0405.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0406 {
+  background:  url('../images/ring/0406.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0407 {
+  background:  url('../images/ring/0407.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0408 {
+  background:  url('../images/ring/0408.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0409 {
+  background:  url('../images/ring/0409.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0410 {
+  background:  url('../images/ring/0410.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0411 {
+  background:  url('../images/ring/0411.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0412 {
+  background:  url('../images/ring/0412.png') no-repeat 0 0;
+  background-size: 100%;
+}
+
+.ring0501 {
+  background:  url('../images/ring/0501.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0502 {
+  background:  url('../images/ring/0502.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0503 {
+  background:  url('../images/ring/0503.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0504 {
+  background:  url('../images/ring/0504.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0505 {
+  background:  url('../images/ring/0505.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0506 {
+  background:  url('../images/ring/0506.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0507 {
+  background:  url('../images/ring/0507.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0508 {
+  background:  url('../images/ring/0508.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0509 {
+  background:  url('../images/ring/0509.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0510 {
+  background:  url('../images/ring/0510.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0511 {
+  background:  url('../images/ring/0511.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0512 {
+  background:  url('../images/ring/0512.png') no-repeat 0 0;
+  background-size: 100%;
+}
+
+.ring0601 {
+  background:  url('../images/ring/0601.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0602 {
+  background:  url('../images/ring/0602.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0603 {
+  background:  url('../images/ring/0603.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0604 {
+  background:  url('../images/ring/0604.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0605 {
+  background:  url('../images/ring/0605.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0606 {
+  background:  url('../images/ring/0606.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0607 {
+  background:  url('../images/ring/0607.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0608 {
+  background:  url('../images/ring/0608.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0609 {
+  background:  url('../images/ring/0609.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0610 {
+  background:  url('../images/ring/0610.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0611 {
+  background:  url('../images/ring/0611.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0612 {
+  background:  url('../images/ring/0612.png') no-repeat 0 0;
+  background-size: 100%;
+}
+
+.ring0701 {
+  background:  url('../images/ring/0701.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0702 {
+  background:  url('../images/ring/0702.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0703 {
+  background:  url('../images/ring/0703.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0704 {
+  background:  url('../images/ring/0704.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0705 {
+  background:  url('../images/ring/0705.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0706 {
+  background:  url('../images/ring/0706.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0707 {
+  background:  url('../images/ring/0707.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0708 {
+  background:  url('../images/ring/0708.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0709 {
+  background:  url('../images/ring/0709.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0710 {
+  background:  url('../images/ring/0710.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0711 {
+  background:  url('../images/ring/0711.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0712 {
+  background:  url('../images/ring/0712.png') no-repeat 0 0;
+  background-size: 100%;
+}
+
+.ring0801 {
+  background:  url('../images/ring/0801.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0802 {
+  background:  url('../images/ring/0802.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0803 {
+  background:  url('../images/ring/0803.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0804 {
+  background:  url('../images/ring/0804.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0805 {
+  background:  url('../images/ring/0805.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0806 {
+  background:  url('../images/ring/0806.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0807 {
+  background:  url('../images/ring/0807.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0808 {
+  background:  url('../images/ring/0808.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0809 {
+  background:  url('../images/ring/0809.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0810 {
+  background:  url('../images/ring/0810.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0811 {
+  background:  url('../images/ring/0811.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0812 {
+  background:  url('../images/ring/0812.png') no-repeat 0 0;
+  background-size: 100%;
+}
+
+.ring0901 {
+  background:  url('../images/ring/0901.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0902 {
+  background:  url('../images/ring/0902.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0903 {
+  background:  url('../images/ring/0903.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0904 {
+  background:  url('../images/ring/0904.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0905 {
+  background:  url('../images/ring/0905.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0906 {
+  background:  url('../images/ring/0906.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0907 {
+  background:  url('../images/ring/0907.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0908 {
+  background:  url('../images/ring/0908.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0909 {
+  background:  url('../images/ring/0909.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0910 {
+  background:  url('../images/ring/0910.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0911 {
+  background:  url('../images/ring/0911.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring0912 {
+  background:  url('../images/ring/0912.png') no-repeat 0 0;
+  background-size: 100%;
+}
+
+.ring1001 {
+  background:  url('../images/ring/1001.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring1002 {
+  background:  url('../images/ring/1002.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring1003 {
+  background:  url('../images/ring/1003.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring1004 {
+  background:  url('../images/ring/1004.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring1005 {
+  background:  url('../images/ring/1005.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring1006 {
+  background:  url('../images/ring/1006.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring1007 {
+  background:  url('../images/ring/1007.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring1008 {
+  background:  url('../images/ring/1008.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring1009 {
+  background:  url('../images/ring/1009.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring1010 {
+  background:  url('../images/ring/1010.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring1011 {
+  background:  url('../images/ring/1011.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring1012 {
+  background:  url('../images/ring/1012.png') no-repeat 0 0;
+  background-size: 100%;
+}
+
+
+.ring1101 {
+  background:  url('../images/ring/1101.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring1102 {
+  background:  url('../images/ring/1102.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring1103 {
+  background:  url('../images/ring/1103.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring1104 {
+  background:  url('../images/ring/1104.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring1105 {
+  background:  url('../images/ring/1105.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring1106 {
+  background:  url('../images/ring/1106.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring1107 {
+  background:  url('../images/ring/1107.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring1108 {
+  background:  url('../images/ring/1108.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring1109 {
+  background:  url('../images/ring/1109.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring1110 {
+  background:  url('../images/ring/1110.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring1111 {
+  background:  url('../images/ring/1111.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring1112 {
+  background:  url('../images/ring/1112.png') no-repeat 0 0;
+  background-size: 100%;
+}
+
+.ring1201 {
+  background:  url('../images/ring/1201.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring1202 {
+  background:  url('../images/ring/1202.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring1203 {
+  background:  url('../images/ring/1203.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring1204 {
+  background:  url('../images/ring/1204.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring1205 {
+  background:  url('../images/ring/1205.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring1206 {
+  background:  url('../images/ring/1206.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring1207 {
+  background:  url('../images/ring/1207.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring1208 {
+  background:  url('../images/ring/1208.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring1209 {
+  background:  url('../images/ring/1209.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring1210 {
+  background:  url('../images/ring/1210.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring1211 {
+  background:  url('../images/ring/1211.png') no-repeat 0 0;
+  background-size: 100%;
+}
+.ring1212 {
+  background:  url('../images/ring/1212.png') no-repeat 0 0;
+  background-size: 100%;
+}
+
+@keyframes sprite {
+   100% { background-position: 0 -2000px; }
+}
+
+@media (max-width: 639px){
+    .animateparent {
+      position: relative;
+      width: 250px;
+      height: 250px;    
+      display: block;
+    }
+    @keyframes sprite {
+        100% { background-position: 0 -1000px; }
+    }
+}

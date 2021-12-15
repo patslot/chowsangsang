@@ -1,0 +1,201 @@
+<!doctype html>
+<html ng-app="mainapp" ng-controller="maincontroller">
+<head>
+
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Cache-control" content="public">
+<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="author" content="Next Mobile">
+<meta name="robots" content="noindex">
+<meta name="google" value="notranslate">
+<meta property="og:image"              content="http://campaign.nextdigital.com.hk/chowsangsang/dev/v16/images/facebook/general.jpg" />
+    
+<title>周生生 - 緣份指數大測試</title>
+
+<link href="./css/normalize.min.css" rel="stylesheet">
+<link href="./css/bootstrap.min.css" rel="stylesheet">
+<link href="./css/main.css" rel="stylesheet">
+<link href="./css/ring.css" rel="stylesheet">    
+
+<script src="./js/jquery-3.2.1.min.js"></script>
+    
+<script src="./js/angular.min.js"></script>
+    
+<script src="./js/angular-animate.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/TouchScroll.js"></script>
+<script src="./js/main.js"></script>
+    
+<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-87059619-9', 'auto');
+ga('send', 'pageview');
+</script>
+<!-- End Google Analytics -->
+    
+</head>
+
+<body>
+<div class="outter_container" ng-show="stage==1">
+    <div class="header">
+        <img src="images/keyvisual.jpg">
+       
+    </div>
+    <div class="content">
+         <div><img src="images/4.png" class="img-responsive"></div>
+        <form class="regform" id="regform" ng-model="regform">
+            
+        <div class="formgroup">
+            <div id="dragformgroup">
+                <div class="con_month jan" style="margin-left: 5vw;">
+                    <input type="radio" name="f_month" id="f_1" ng-model="f_month" value="01"><label for="f_1">1</label>
+                </div>
+                <div class="con_month feb">
+                    <input type="radio" name="f_month" id="f_2" ng-model="f_month" value="02"><label for="f_2">2</label>
+                </div>
+                <div class="con_month mar">
+                    <input type="radio" name="f_month" id="f_3" ng-model="f_month" value="03"><label for="f_3">3</label>
+                </div>
+                <div class="con_month apr">
+                    <input type="radio" name="f_month" id="f_4" ng-model="f_month" value="04"><label for="f_4">4</label>
+                </div>
+                <div class="con_month may">
+                    <input type="radio" name="f_month" id="f_5" ng-model="f_month" value="05"><label for="f_5">5</label>
+                </div>
+                <div class="con_month jun">
+                    <input type="radio" name="f_month" id="f_6" ng-model="f_month" value="06"><label for="f_6">6</label>
+                </div>
+                <div class="con_month jul">
+                    <input type="radio" name="f_month" id="f_7" ng-model="f_month" value="07"><label for="f_7">7</label>
+                </div>
+                <div class="con_month aug">
+                    <input type="radio" name="f_month" id="f_8" ng-model="f_month" value="08"><label for="f_8">8</label>
+                </div>
+                <div class="con_month sep">
+                    <input type="radio" name="f_month" id="f_9" ng-model="f_month" value="09"><label for="f_9">9</label>
+                </div>
+                <div class="con_month oct">
+                    <input type="radio" name="f_month" id="f_10" ng-model="f_month" value="10"><label for="f_10">10</label>
+                </div>
+                <div class="con_month nov">
+                    <input type="radio" name="f_month" id="f_11" ng-model="f_month" value="11"><label for="f_11">11</label>
+                </div>
+                <div class="con_month dec">
+                    <input type="radio" name="f_month" id="f_12" ng-model="f_month" value="12"><label for="f_12">12</label>
+                </div>
+           </div>
+        </div>
+            
+              <div><img src="images/5.png" class="img-responsive"></div>
+       <div class="formgroup">
+           
+            <div id="dragformgroup2">
+            <div class="con_month jan" style="margin-left: 5vw;">
+                <input type="radio" name="m_month" id="m_1" ng-model="m_month" value="01"><label for="m_1">1</label>
+            </div>
+            <div class="con_month feb">
+                <input type="radio" name="m_month" id="m_2" ng-model="m_month" value="02"><label for="m_2">2</label>
+            </div>
+            <div class="con_month mar">
+                <input type="radio" name="m_month" id="m_3" ng-model="m_month" value="03"><label for="m_3">3</label>
+            </div>
+            <div class="con_month apr">
+                <input type="radio" name="m_month" id="m_4" ng-model="m_month" value="04"><label for="m_4">4</label>
+            </div>
+            <div class="con_month may">
+                <input type="radio" name="m_month" id="m_5" ng-model="m_month" value="05"><label for="m_5">5</label>
+            </div>
+            <div class="con_month jun">
+                <input type="radio" name="m_month" id="m_6" ng-model="m_month" value="06"><label for="m_6">6</label>
+            </div>
+            <div class="con_month jul">
+                <input type="radio" name="m_month" id="m_7" ng-model="m_month" value="07"><label for="m_7">7</label>
+            </div>
+            <div class="con_month aug">
+                <input type="radio" name="m_month" id="m_8" ng-model="m_month" value="08"><label for="m_8">8</label>
+            </div>
+            <div class="con_month sep">
+                <input type="radio" name="m_month" id="m_9" ng-model="m_month" value="09"><label for="m_9">9</label>
+            </div>
+            <div class="con_month oct">
+                <input type="radio" name="m_month" id="m_10" ng-model="m_month" value="10"><label for="m_10">10</label>
+            </div>
+            <div class="con_month nov">
+                <input type="radio" name="m_month" id="m_11" ng-model="m_month" value="11"><label for="m_11">11</label>
+            </div>
+            <div class="con_month dec">
+                <input type="radio" name="m_month" id="m_12" ng-model="m_month" value="12"><label for="m_12">12</label>
+            </div>
+           </div>
+        </div>
+         <div style="min-height: 80px;">
+             <button id="submit" name="submit" ng-model="submit" class="fade-in-out" ng-show="ready" ng-click="showresult();">
+                 <img src="images/6.png" style="margin-top: 2vw;">
+             </button>
+        </div>
+        </form>  
+        <div><img src="images/7.png" style="margin-top: 2vw;"></div>
+        
+    </div>
+    <div class="content_background"><img src="images/bg_content.png"></div>
+     
+</div>
+
+<div class="outter_container" ng-show="stage==2">
+    <div class="header">
+        <img src="images/keyvisual.jpg">
+    </div>
+     <div class="content">
+         <div><img src="images/result_01.png"></div>
+         
+           <div class='diamond'>
+             <img ng-model="result_f" ng-src="images/diamond/{{result_f}}.png" onErrorSrc="images/diamond/1.png">
+             <img ng-model="result_m" ng-src="images/diamond/{{result_m}}.png" onErrorSrc="images/diamond/1.png">
+         </div>
+         
+         <div><img src="images/result_03.png"></div>
+         <div><img ng-src="{{'images/result/'+result}}"></div>
+
+          <div>
+             <button id="submit" name="submit" ng-model="submit" class="fade-in-out" ng-show="ready" ng-click="showproduct();"><img src="images/result_06.png"></a>
+         </div>
+         <div style="margin: 20px 0 ;">
+             <button ng-click="reloadpage()"><img src="images/result_08.png"></button>
+         </div>
+         <div><img src="images/result_07.png"></div>
+    </div>
+     <div class="content_background">
+         <img src="images/bg_content.png">
+    </div>
+</div>
+    
+<div class="outter_container" ng-show="stage==3">
+
+     <div class="share">
+         <div><img src="images/share_01.png"></div>
+         <div><img src="images/share_02.png"></div>
+         <div class="animateparent">
+            <div ng-model="animatedRing" class="ringani ring{{ ringname }}" ></div>
+         </div>
+         
+         <div><a ng-click="fb_share()"><img src="images/share_04.png"></a></div>
+         <div><a ng-click="whatsapp_share()"><img src="images/share_05.png"></a></div>
+         <div><a ng-click="reloadpage()"><img src="images/share_06.png"></a></div>
+         <div><img src="images/share_07.png"></div>
+    </div>
+    
+</div>
+    
+    
+</body>
+</html>
+    
+   
+  

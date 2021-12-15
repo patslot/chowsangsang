@@ -1,0 +1,196 @@
+@charset "UTF-8";
+/* CSS Document */
+html{
+    height: 100%;
+}
+body{
+    background: url(../images/bg.jpg) repeat-x;
+    background-size: auto 100%;
+    text-align: center;
+    font-size: 14px;
+}
+div{
+    display: block;
+}
+.outter_container{
+    margin: 0 auto;
+    width: 640px;
+    height: auto;
+    position: relative;
+}
+.header{
+    z-index: 0;
+}
+.content{
+    width: 640px;
+    top: 495px;
+    float: left;
+    z-index: 2;   
+}
+.content_background{
+    width: 642px;
+    top: 0;
+    float: left;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+@media (max-width: 639px){
+    .outter_container{
+        width: 100%;
+    } 
+    .content{
+        width: 100%;
+        top: 78vw;
+    }
+    .content_background{
+        width: 100%;
+        top: 2vw;
+    }
+}
+
+
+
+label, input{
+    margin:0;
+}
+
+.formgroup{
+      /* Make this scrollable when needed */
+    overflow-x: auto;
+    /* We don't want vertical scrolling */
+    overflow-y: hidden;
+    /* Make an auto-hiding scroller for the 3 people using a IE */
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    /* For WebKit implementations, provide inertia scrolling */
+    -webkit-overflow-scrolling: touch;
+    /* We don't want internal inline elements to wrap */
+    white-space: nowrap;
+    /* Remove the default scrollbar for WebKit implementations */
+    
+}
+.formgroup::-webkit-scrollbar {
+        display: none;
+}
+
+.con_month{
+  display: inline-flex;
+  align-items: center;
+  width: 150px; 
+  height: 150px;
+  margin: 10px;
+}
+
+.con_month label{
+    width: 100%;
+    height: 100%;
+    background-position: top left;
+    text-indent: -9999px;
+}
+input[type="radio"] {
+    display: none;
+}
+
+.jan label{
+    background: url(../images/btn_months.png) no-repeat ; 
+    background-size: 100% 300px;
+    background-position: 0 0;
+}
+.jan input[type="radio"]:checked + label{
+    background-position: 0px -150px;
+}
+
+.feb label{
+    background: url(../images/btn_months.png) no-repeat ; 
+   background-size: 100% 300px;
+    background-position: -150px 0;
+}
+.feb input[type="radio"]:checked + label{
+    background-position: -150px -150px;
+}
+.mar label{
+    background: url(../images/btn_months.png) no-repeat ; 
+    background-size: 100% 300px;
+    background-position: -300px 0;
+}
+.mar input[type="radio"]:checked + label{
+    background-position: -300px -150px;
+}
+.apr label{
+    background: url(../images/btn_months.png) no-repeat ; 
+   background-size: 100% 300px;
+    background-position: -450px 0;
+}
+.apr input[type="radio"]:checked + label{
+    background-position: -450px -150px;
+}
+
+
+.may label{
+    background: url(../images/btn_months.png) no-repeat ; 
+   background-size: 100% 300px;
+    background-position: -600px 0;
+}
+.may input[type="radio"]:checked + label{
+    background-position: -600px -150px;
+}
+
+.jun label{
+    background: url(../images/btn_months.png) no-repeat ; 
+   background-size: 100% 300px;
+    background-position: -750px 0;
+}
+.jun input[type="radio"]:checked + label{
+    background-position: -750px -150px;
+}
+.jul label{
+    background: url(../images/btn_months.png) no-repeat ; 
+   background-size: 100% 300px;
+    background-position: -900px 0;
+}
+.jul input[type="radio"]:checked + label{
+    background-position: -900px -150px;
+}
+.aug label{
+    background: url(../images/btn_months.png) no-repeat ; 
+   background-size: 100% 300px;
+    background-position: -1050px 0;
+}
+.aug input[type="radio"]:checked + label{
+    background-position: -1050px -150px;
+}
+
+.sep label{
+    background: url(../images/btn_months.png) no-repeat ; 
+   background-size: 100% 300px;
+    background-position: -1200px 0;
+}
+.sep input[type="radio"]:checked + label{
+    background-position: -1200px -150px;
+}
+
+.oct label{
+    background: url(../images/btn_months.png) no-repeat ; 
+   background-size: 100% 300px;
+    background-position: -1350px 0;
+}
+.oct input[type="radio"]:checked + label{
+    background-position:  -1350px -150px;
+}
+.nov label{
+    background: url(../images/btn_months.png) no-repeat ; 
+   background-size: 100% 300px;
+    background-position: -1500px 0;
+}
+.nov input[type="radio"]:checked + label{
+    background-position: -1500px -150px;
+}
+.dec label{
+    background: url(../images/btn_months.png) no-repeat ; 
+   background-size: 100% 300px;
+    background-position: -1650px 0;
+}
+.dec input[type="radio"]:checked + label{
+    background-position: -1650px -150px;
+}
